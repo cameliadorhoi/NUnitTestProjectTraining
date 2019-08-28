@@ -1,0 +1,15 @@
+D:\NUnitTestProjectTraining\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+D:\NUnitTestProjectTraining\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+D:\NUnitTestProjectTraining\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+D:\NUnitTestProjectTraining\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+D:\NUnitTestProjectTraining\bin\Debug\netcoreapp2.1\NUnitTestProjectTraining.deps.json
+D:\NUnitTestProjectTraining\bin\Debug\netcoreapp2.1\NUnitTestProjectTraining.runtimeconfig.json
+D:\NUnitTestProjectTraining\bin\Debug\netcoreapp2.1\NUnitTestProjectTraining.runtimeconfig.dev.json
+D:\NUnitTestProjectTraining\bin\Debug\netcoreapp2.1\NUnitTestProjectTraining.dll
+D:\NUnitTestProjectTraining\obj\Debug\netcoreapp2.1\NUnitTestProjectTraining.csprojAssemblyReference.cache
+D:\NUnitTestProjectTraining\obj\Debug\netcoreapp2.1\NUnitTestProjectTraining.csproj.CoreCompileInputs.cache
+D:\NUnitTestProjectTraining\obj\Debug\netcoreapp2.1\NUnitTestProjectTraining.AssemblyInfoInputs.cache
+D:\NUnitTestProjectTraining\obj\Debug\netcoreapp2.1\NUnitTestProjectTraining.AssemblyInfo.cs
+D:\NUnitTestProjectTraining\bin\Debug\netcoreapp2.1\NUnitTestProjectTraining.pdb
+D:\NUnitTestProjectTraining\obj\Debug\netcoreapp2.1\NUnitTestProjectTraining.dll
+D:\NUnitTestProjectTraining\obj\Debug\netcoreapp2.1\NUnitTestProjectTraining.pdb

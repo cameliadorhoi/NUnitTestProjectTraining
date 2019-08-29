@@ -20,7 +20,7 @@ namespace NUnitTestProjectTraining.Page_object_Model
             driver.Navigate().GoToUrl("http://automationpractice.com/index.php");
         }
 
-        [Test]
+        [Test]  // Scroll down and click on link text
         public void Test1()
         {
             IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;

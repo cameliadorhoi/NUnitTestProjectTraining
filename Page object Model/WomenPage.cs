@@ -19,14 +19,14 @@ namespace NUnitTestProjectTraining.Page_object_Model
             driver.Navigate().GoToUrl("http://automationpractice.com/index.php?id_category=3&controller=category");
         }
 
-        [Test]
+        [Test] // Find an element by name
         public void Test1()
         {
             driver.FindElement(By.Name("layered_category_4")).Click();
 
         }
 
-        [Test]
+        [Test] // Find an element by link text
         public void Test2()
         {
             driver.FindElement(By.LinkText("Contact us")).Click();

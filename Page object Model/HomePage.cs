@@ -11,17 +11,17 @@ namespace NUnitTestProjectTraining.Page_object_Model
     {
         IWebDriver driver;
 
-        [SetUp]
+        [SetUp] // Navigate to the page
         public void initialization()
         {
             driver = new ChromeDriver("C:\\Users\\cameliadorhoi\\source\\repos\\PageObjectModel\\bin\\Debug\\netcoreapp2.1");
             driver.Navigate().GoToUrl("http://automationpractice.com/index.php");
         }
 
-        [Test]
+        [Test] // Find element by name 
         public void Test1()
         {
-            driver.FindElement(By.Name("search_query")).SendKeys("learn automation");
+            driver.FindElement(By.Name("search_query")).SendKeys("women");
             driver.FindElement(By.Name("submit_search")).Click();
         }
 

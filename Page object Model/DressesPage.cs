@@ -20,18 +20,15 @@ namespace NUnitTestProjectTraining.Page_object_Model
             driver = new ChromeDriver("C:\\Users\\cameliadorhoi\\source\\repos\\PageObjectModel\\bin\\Debug\\netcoreapp2.1");
             driver.Navigate().GoToUrl("http://automationpractice.com/index.php");
         }
-        [Test]
+        [Test] // How to check if an element is not null - Assert
         public void Test1()
         {
-            //var meniu = driver.FindElement(by);
-            //Assert.IsTrue(driver.FindElement(by:.XPath(" ")).isDispayed();
-
+            
             var meniu = driver.FindElement(By.Id("block_top_menu"));
-
             Assert.IsNotNull(meniu, "message assert true ce vrei tu ");
 
         }
-        [Test]
+        [Test] // HoW to check if an element is visible - Assert
         public void Test2()
         {
             var summerCollection = driver.FindElement(By.XPath("//*[@id='htmlcontent_top']/ul/li[2]/a/img"));

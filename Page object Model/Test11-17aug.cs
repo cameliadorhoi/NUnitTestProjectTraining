@@ -18,7 +18,7 @@ namespace NUnitTestProjectTraining.Page_object_Model
 
         }
 
-        [Test]
+        [Test] // How use Implicit Wait and drop-down 
         public void Test1()
         {
 

@@ -25,14 +25,12 @@ namespace NUnitTestProjectTraining.Page_object_Model
         {
             IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;
             jse.ExecuteScript("scroll(0,2500)");
-        }
-
-        [Test]
-        public void Test2()
-        {
             driver.FindElement(By.LinkText("Our stores")).Click();
-
+         
         }
+
+        
+        
 
     }
 }
